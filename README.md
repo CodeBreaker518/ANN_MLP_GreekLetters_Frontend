@@ -40,3 +40,8 @@ To install the project, follow these steps:
     bun install
 
    ```
+
+3. Run it
+   ```bash
+    bun run dev
+   ```
