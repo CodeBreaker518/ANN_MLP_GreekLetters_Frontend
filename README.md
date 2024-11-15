@@ -14,7 +14,7 @@ This repository contains the frontend for a web application that allows testing 
 
 The project consists of a modern interface for interacting with a neural network model that recognizes lowercase Greek letters handwritten. Users can draw a letter in the browser, and the neural network will process the drawing, returning the letter that best matches the pattern trained in the model.
 
-This frontend communicates with an API developed in FastAPI, which uses a pre-trained model to perform the recognition.
+This frontend communicates with an API developed in FastAPI, which uses a pre-trained model to perform the recognition, find this project here: [Backend ia1114_RNA_GreekLetters](https://github.com/CodeBreaker518/ia1114_RNA_GreekLetters)
 
 ## Features
 
