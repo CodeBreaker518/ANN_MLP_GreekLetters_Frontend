@@ -124,8 +124,8 @@ const GreekLetterRecognition = () => {
   };
 
   return (
-    <div className="w-full min-h-screen flex justify-center p-4 bg-slate-100">
-      <section className="w-1/4 flex flex-col bg-blue-400 m-2 p-6 rounded-lg shadow-md">
+    <div className="w-full min-h-dvh flex justify-center p-2 bg-slate-100">
+      <section className="w-1/4 flex flex-col bg-blue-400 m-2 p-6  rounded-lg shadow-md">
         <h1 className="text-xl font-bold text-white mb-4">
           Greek Letters <span className="text-4xl leading-none">.</span>
         </h1>
@@ -145,9 +145,9 @@ const GreekLetterRecognition = () => {
       </section>
 
       <section className="w-3/4 flex bg-slate-600 m-2 p-6 rounded-lg shadow-md">
-        <div className="flex-1 flex flex-col justify-center items-center bg-white rounded-lg shadow-lg p-6">
-          <div className="mt-4 h-20 mb-8 text-center">
-            <h3 className="font-semibold text-2xl mb-4">Prediction</h3>
+        <div className="w-full flex flex-col justify-center items-center bg-white rounded-lg shadow-lg gap-4">
+          <div className="mt-4 mb-4 h-20  text-center">
+            <h3 className="font-semibold text-2xl mb-2">Prediction</h3>
             {prediction ? (
               <>
                 <p className="text-lg">
@@ -180,10 +180,10 @@ const GreekLetterRecognition = () => {
             onMouseDown={startDrawing}
             onMouseUp={finishDrawing}
             onMouseMove={draw}
-            className="border-2 border-slate-300 rounded-lg mt-4 mb-6 cursor-crosshair"
+            className="border-2 border-slate-300 rounded-lg cursor-crosshair"
           />
 
-          <div className="flex justify-center mt-4">
+          <div className="flex justify-center">
             <Button onClick={clearCanvas} variant="destructive" className="mr-4">
               <Eraser className="mr-2 h-4 w-4" /> Clear Canvas
             </Button>
